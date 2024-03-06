@@ -5,7 +5,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-// #define DIR_PATH "."
+#define DIR_PATH "."
 enum FileTypes {
   ONLY_FILE = 'f',
   ONLY_LINK = 'l',

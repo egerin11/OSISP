@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <string.h>
 
+
 void view_list_from_dir(const char *dirname, enum FileTypes types) {
 
   DIR *dir = opendir(dirname);
