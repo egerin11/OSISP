@@ -37,7 +37,7 @@ void fillingMessages() {
             printf("Queue is full!\n");
 
         sem_post(fillSem);                                       // Освободить семафоры.
-        sem_post(queueAccess);
+        sem_post(queueAccess);                                                                                      
         sleep(3);
     }
                                                                  // Отсоединить память.

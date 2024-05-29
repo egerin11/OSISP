@@ -17,7 +17,7 @@
 
 ring_t* ring;
 
-int main()
+int main() 
 {
     sem_unlink("/producer");
     sem_unlink("/consumer");
